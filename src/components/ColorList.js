@@ -1,6 +1,8 @@
+
 import React, { useState } from "react";
 import axios from "axios";
-
+import EditMenu from './EditMenu';
+;
 const initialColor = {
   color: "",
   code: { hex: "" }
@@ -53,6 +55,7 @@ const ColorList = ({ colors, updateColors }) => {
 };
 
 export default ColorList;
+
 
 //Task List:
 //1. Complete the saveEdit functions by making a put request for saving colors. (Think about where will you get the id from...)
